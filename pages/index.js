@@ -26,6 +26,7 @@ export default () => (
       <meta name="theme-color" content="#000000"/>
       <meta content="text/html; charset=UTF-8" name="Content-Type" />
       //<link rel="shortcut icon" href="/static/favicon.ico"/>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400i,400,500,500i,700,700i|Lato:100,100i,300,300i,400i,400,700,700i,900,900i|Ubuntu+Mono:400i,400,700,700i&amp;subset=latin" />
       <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
     </Head>
