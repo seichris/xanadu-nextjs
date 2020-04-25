@@ -1,5 +1,10 @@
 import Head from 'next/head';
-import LandingPage from "./../components/LandingPage";
+import NavSection from "./../components/0NavSection";
+import HeroSection from "./../components/2HeroSection";
+import ProblemSection from "./../components/4ProblemSection";
+import SolutionSection from "./../components/6SolutionSection";
+import ProductSection from "./../components/8ProductSection";
+import FooterSection from "./../components/10FooterSection";
 
 export default () => (
   <>
@@ -30,6 +35,15 @@ export default () => (
       <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
     </Head>
-    <LandingPage />
+    <body class="bg-body text-body font-body">
+      <div class="container mx-auto px-4">
+        <NavSection />
+        <HeroSection />
+        <ProblemSection />
+        <SolutionSection />
+        <ProductSection />
+        <FooterSection />
+      </div>
+    </body>
   </>
 )
