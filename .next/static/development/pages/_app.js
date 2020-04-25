@@ -1,5 +1,66 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\_app.js"],{
 
+/***/ "./components/LandingPage.scss":
+/*!*************************************!*\
+  !*** ./components/LandingPage.scss ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!../node_modules/resolve-url-loader??ref--5-oneOf-6-3!../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./LandingPage.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./components/LandingPage.scss");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = function(element){// These elements should always exist. If they do not,
+// this code should fail.
+var anchorElement=document.querySelector('#__next_css__DO_NOT_USE__');var parentNode=anchorElement.parentNode;// Normally <head>
+// Each style tag should be placed right before our
+// anchor. By inserting before and not after, we do not
+// need to track the last inserted element.
+parentNode.insertBefore(element,anchorElement)// Remember: this is development only code.
+//
+// After styles are injected, we need to remove the
+// <style> tags that set `body { display: none; }`.
+//
+// We use `requestAnimationFrame` as a way to defer
+// this operation since there may be multiple style
+// tags.
+;(self.requestAnimationFrame||setTimeout)(function(){for(var x=document.querySelectorAll('[data-next-hide-fouc]'),i=x.length;i--;){x[i].parentNode.removeChild(x[i]);}});};
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!../node_modules/resolve-url-loader??ref--5-oneOf-6-3!../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./LandingPage.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./components/LandingPage.scss",
+      function () {
+        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!../node_modules/resolve-url-loader??ref--5-oneOf-6-3!../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./LandingPage.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./components/LandingPage.scss");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/arrayWithHoles.js":
 /*!***************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/arrayWithHoles.js ***!
@@ -346,6 +407,20 @@ module.exports = _typeof;
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/regenerator-runtime/runtime.js");
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./components/LandingPage.scss":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./node_modules/resolve-url-loader??ref--5-oneOf-6-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./components/LandingPage.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
+// Module
+exports.push([module.i, ".HeroSection__image {\n  margin: 0 auto;\n  max-width: 500px;\n}\n\n.buttons .button {\n  margin-bottom: 0 !important;\n}\n\n.mailButton {\n  color: #363636;\n}\n\n.mailButton:hover {\n  text-decoration: none;\n}\n\n.Hero__image {\n  margin: 0 auto;\n  padding: 0;\n  margin-top: 1rem;\n  max-width: 900px;\n}\n\n.button:hover .contactImage {\n  -webkit-filter: grayscale(20%);\n          filter: grayscale(20%);\n  transition: all 0.2s ease-in-out;\n}\n\n.button:hover .mailImage {\n  -webkit-filter: grayscale(20%);\n          filter: grayscale(20%);\n  transition: all 0.2s ease-in-out;\n}\n\n@media only screen and (max-width: 769px) {\n  .buttons {\n    justify-content: center;\n  }\n\n  .HeroSection__image {\n    display: none;\n  }\n}\n\n.contactImage {\n  padding-right: 0.5rem;\n  padding-top: 0.1rem;\n  height: 70%;\n  -webkit-filter: grayscale(100%);\n          filter: grayscale(100%);\n}\n\n.mailImage {\n  padding-right: 0.5rem;\n  padding-top: 0.35rem;\n  height: 70%;\n  -webkit-filter: grayscale(100%);\n          filter: grayscale(100%);\n}\n\n.HeroSectionHeaderimage {\n  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);\n  border-radius: 3px;\n}\n\n.glow-on-hover {\n  position: relative;\n  z-index: 0;\n  margin-right: 1rem !important;\n}\n\n.glow-on-hover:before {\n  content: \"\";\n  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);\n  position: absolute;\n  top: -2px;\n  left: -2px;\n  background-size: 400%;\n  z-index: -1;\n  -webkit-filter: blur(5px);\n          filter: blur(5px);\n  width: calc(100% + 4px);\n  height: calc(100% + 4px);\n  -webkit-animation: glowing 20s linear infinite;\n          animation: glowing 20s linear infinite;\n  opacity: 0;\n  transition: opacity 0.3s ease-in-out;\n  border-radius: 4px;\n  border-color: transparent !important;\n}\n\n.glow-on-hover:active {\n  border-color: transparent !important;\n}\n\n.glow-on-hover:active:after {\n  background: transparent;\n  border-color: transparent !important;\n}\n\n.glow-on-hover:hover:before {\n  opacity: 1;\n  border-color: transparent !important;\n}\n\n.glow-on-hover:after {\n  z-index: -1;\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: #fff;\n  left: 0;\n  top: 0;\n  border-radius: 4px;\n  border-color: transparent !important;\n}\n\n@-webkit-keyframes glowing {\n  0% {\n    background-position: 0 0;\n  }\n\n  50% {\n    background-position: 400% 0;\n  }\n\n  100% {\n    background-position: 0 0;\n  }\n}\n\n@keyframes glowing {\n  0% {\n    background-position: 0 0;\n  }\n\n  50% {\n    background-position: 400% 0;\n  }\n\n  100% {\n    background-position: 0 0;\n  }\n}", "",{"version":3,"sources":["C:/Users/chris/Documents/Workspace/xanadu/components/LandingPage.scss"],"names":[],"mappings":"AACE;EACE,cAAA;EACA,gBAAA;AAAJ;;AAIA;EACE,2BAAA;AADF;;AAIA;EACE,cAAA;AADF;;AAEE;EACE,qBAAA;AAAJ;;AAKA;EACE,cAAA;EACA,UAAA;EACA,gBAAA;EACA,gBAAA;AAFF;;AAKA;EACE,8BAAA;UAAA,sBAAA;EACA,gCAAA;AAFF;;AAMA;EACE,8BAAA;UAAA,sBAAA;EACA,gCAAA;AAHF;;AAOA;EACE;IACE,uBAAA;EAJF;;EAMA;IACE,aAAA;EAHF;AACF;;AAMA;EACE,qBAAA;EACA,mBAAA;EACA,WAAA;EACA,+BAAA;UAAA,uBAAA;AAJF;;AAOA;EACE,qBAAA;EACA,oBAAA;EACA,WAAA;EACA,+BAAA;UAAA,uBAAA;AAJF;;AAOA;EACE,4CAAA;EACA,kBAAA;AAJF;;AAOA;EACI,kBAAA;EACA,UAAA;EACA,6BAAA;AAJJ;;AAOA;EACI,WAAA;EACA,mHAAA;EACA,kBAAA;EACA,SAAA;EACA,UAAA;EACA,qBAAA;EACA,WAAA;EACA,yBAAA;UAAA,iBAAA;EACA,uBAAA;EACA,wBAAA;EACA,8CAAA;UAAA,sCAAA;EACA,UAAA;EACA,oCAAA;EACA,kBAAA;EACA,oCAAA;AAJJ;;AAOA;EAEI,oCAAA;AALJ;;AAQA;EACI,uBAAA;EACA,oCAAA;AALJ;;AAQA;EACI,UAAA;EACA,oCAAA;AALJ;;AAQA;EACI,WAAA;EACA,WAAA;EACA,kBAAA;EACA,WAAA;EACA,YAAA;EACA,gBAAA;EACA,OAAA;EACA,MAAA;EACA,kBAAA;EACA,oCAAA;AALJ;;AAQA;EACI;IAAK,wBAAA;EAJP;;EAKE;IAAM,2BAAA;EAFR;;EAGE;IAAO,wBAAA;EAAT;AACF;;AAJA;EACI;IAAK,wBAAA;EAJP;;EAKE;IAAM,2BAAA;EAFR;;EAGE;IAAO,wBAAA;EAAT;AACF","file":"LandingPage.scss","sourcesContent":[".HeroSection {\r\n  &__image {\r\n    margin: 0 auto;\r\n    max-width: 500px;\r\n  }\r\n}\r\n\r\n.buttons .button {\r\n  margin-bottom: 0 !important;\r\n}\r\n\r\n.mailButton {\r\n  color: #363636;\r\n  &:hover {\r\n    text-decoration: none;\r\n    //transition: all .2s ease-in-out;\r\n  }\r\n}\r\n\r\n.Hero__image {\r\n  margin: 0 auto;\r\n  padding: 0;\r\n  margin-top: 1rem;\r\n  max-width: 900px;\r\n}\r\n\r\n.button:hover .contactImage {\r\n  filter: grayscale(20%);\r\n  transition: all .2s ease-in-out;\r\n  //transform: scale(1.05);\r\n}\r\n\r\n.button:hover .mailImage {\r\n  filter: grayscale(20%);\r\n  transition: all .2s ease-in-out;\r\n  //transform: scale(1.05);\r\n}\r\n\r\n@media only screen and (max-width: 769px) {\r\n  .buttons {\r\n    justify-content: center;\r\n  }\r\n  .HeroSection__image {\r\n    display: none;\r\n  }\r\n}\r\n\r\n.contactImage {\r\n  padding-right: 0.5rem;\r\n  padding-top: 0.1rem;\r\n  height: 70%;\r\n  filter: grayscale(100%);\r\n}\r\n\r\n.mailImage {\r\n  padding-right: 0.5rem;\r\n  padding-top: 0.35rem;\r\n  height: 70%;\r\n  filter: grayscale(100%);\r\n}\r\n\r\n.HeroSectionHeaderimage {\r\n  box-shadow: 5px 5px 10px rgba(0,0,0,.15);\r\n  border-radius: 3px;\r\n}\r\n\r\n.glow-on-hover {\r\n    position: relative;\r\n    z-index: 0;\r\n    margin-right: 1rem !important;\r\n}\r\n\r\n.glow-on-hover:before {\r\n    content: '';\r\n    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);\r\n    position: absolute;\r\n    top: -2px;\r\n    left:-2px;\r\n    background-size: 400%;\r\n    z-index: -1;\r\n    filter: blur(5px);\r\n    width: calc(100% + 4px);\r\n    height: calc(100% + 4px);\r\n    animation: glowing 20s linear infinite;\r\n    opacity: 0;\r\n    transition: opacity .3s ease-in-out;\r\n    border-radius: 4px;\r\n    border-color: transparent !important;\r\n}\r\n\r\n.glow-on-hover:active {\r\n    //color: #000\r\n    border-color: transparent !important;\r\n}\r\n\r\n.glow-on-hover:active:after {\r\n    background: transparent;\r\n    border-color: transparent !important;\r\n}\r\n\r\n.glow-on-hover:hover:before {\r\n    opacity: 1;\r\n    border-color: transparent !important;\r\n}\r\n\r\n.glow-on-hover:after {\r\n    z-index: -1;\r\n    content: '';\r\n    position: absolute;\r\n    width: 100%;\r\n    height: 100%;\r\n    background: #fff;\r\n    left: 0;\r\n    top: 0;\r\n    border-radius: 4px;\r\n    border-color: transparent !important;\r\n}\r\n\r\n@keyframes glowing {\r\n    0% { background-position: 0 0; }\r\n    50% { background-position: 400% 0; }\r\n    100% { background-position: 0 0; }\r\n}\r\n"]}]);
 
 
 /***/ }),
@@ -3435,10 +3510,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/index.css */ "./styles/index.css");
 /* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_index_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_LandingPage_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/LandingPage.scss */ "./components/LandingPage.scss");
+/* harmony import */ var _components_LandingPage_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_components_LandingPage_scss__WEBPACK_IMPORTED_MODULE_3__);
 
 var _jsxFileName = "C:\\Users\\chris\\Documents\\Workspace\\xanadu\\pages\\_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
 
 function MyApp(_ref) {
   var Component = _ref.Component,
@@ -3447,7 +3525,7 @@ function MyApp(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4,
+      lineNumber: 5,
       columnNumber: 10
     }
   }));
