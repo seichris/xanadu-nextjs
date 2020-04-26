@@ -279,7 +279,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function ProductSection(props) {
   return __jsx("footer", {
-    className: "flex flex-wrap items-center justify-between p-4",
+    class: "flex flex-wrap flex-col lg:flex-row items-center p-4 border-t",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -287,28 +287,64 @@ function ProductSection(props) {
       columnNumber: 5
     }
   }, __jsx("div", {
-    className: "w-full lg:w-auto lg:mr-6 mb-4 lg:mb-0 text-center",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 3,
-      columnNumber: 73
-    }
-  }, "\xA9 2020 Xanadu"), __jsx("div", {
-    className: "flex flex-col lg:flex-row items-center w-full lg:w-auto",
+    class: "w-full lg:w-auto lg:mr-6 text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4,
       columnNumber: 7
     }
-  }, __jsx("div", {
-    className: "mx-auto lg:mx-0 lg:ml-auto",
+  }, "\xA9 2020 Xanadu"), __jsx("div", {
+    class: "mx-auto my-4 lg:my-0 lg:ml-0",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5,
-      columnNumber: 9
+      columnNumber: 7
+    }
+  }, __jsx("a", {
+    className: "block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700",
+    href: "#",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 7
+    }
+  }, "Follow users"), __jsx("a", {
+    className: "block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700",
+    href: "#",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 7
+    }
+  }, "Follow lists"), __jsx("a", {
+    className: "block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700",
+    href: "#",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 7
+    }
+  }, "my feed"), __jsx("a", {
+    className: "block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700",
+    href: "#",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 7
+    }
+  }, "my profile, settings")), __jsx("div", {
+    className: "mx-auto lg:mx-0 lg:ml-auto",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 7
     }
   }, __jsx("a", {
     className: "inline-block mt-0 text-blue-900 hover:text-blue-700",
@@ -316,8 +352,8 @@ function ProductSection(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 53
+      lineNumber: 12,
+      columnNumber: 9
     }
   }, "FAQ"), __jsx("a", {
     className: "inline-block mt-0 ml-8 text-blue-900 hover:text-blue-700",
@@ -325,8 +361,8 @@ function ProductSection(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 136
+      lineNumber: 13,
+      columnNumber: 9
     }
   }, "Github"), __jsx("a", {
     className: "inline-block mt-0 ml-8 text-blue-900 hover:text-blue-700",
@@ -334,16 +370,16 @@ function ProductSection(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 227
+      lineNumber: 14,
+      columnNumber: 9
     }
   }, "Discord")), __jsx("div", {
     className: "flex justify-center mt-4 lg:mt-0 lg:ml-8",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 9
+      lineNumber: 16,
+      columnNumber: 7
     }
   }, __jsx("img", {
     className: "w-6 h-6 mr-6",
@@ -352,8 +388,8 @@ function ProductSection(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 67
+      lineNumber: 17,
+      columnNumber: 9
     }
   }), __jsx("img", {
     className: "w-6 h-6",
@@ -362,10 +398,10 @@ function ProductSection(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 149
+      lineNumber: 18,
+      columnNumber: 9
     }
-  }))));
+  })));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (ProductSection);
@@ -1838,42 +1874,42 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     lineNumber: 40,
     columnNumber: 7
   }
-}, __jsx(_components_0NavSection__WEBPACK_IMPORTED_MODULE_2__["default"], {
+}, __jsx(_components_2HeroSection__WEBPACK_IMPORTED_MODULE_3__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 41,
     columnNumber: 9
   }
-}), __jsx(_components_2HeroSection__WEBPACK_IMPORTED_MODULE_3__["default"], {
+}), __jsx(_components_6FlowSection__WEBPACK_IMPORTED_MODULE_6__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 42,
     columnNumber: 9
   }
-}), __jsx(_components_6FlowSection__WEBPACK_IMPORTED_MODULE_6__["default"], {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 44,
-    columnNumber: 9
-  }
 }), __jsx(_components_3BenefitsSection__WEBPACK_IMPORTED_MODULE_4__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 45,
+    lineNumber: 43,
     columnNumber: 9
   }
 }), __jsx(_components_8ProductSection__WEBPACK_IMPORTED_MODULE_7__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 46,
+    lineNumber: 44,
     columnNumber: 9
   }
 }), __jsx(_components_10FooterSection__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 45,
+    columnNumber: 9
+  }
+}), __jsx(_components_0NavSection__WEBPACK_IMPORTED_MODULE_2__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
