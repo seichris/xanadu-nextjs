@@ -1,8 +1,9 @@
 import Head from 'next/head';
 import NavSection from "./../components/0NavSection";
 import HeroSection from "./../components/2HeroSection";
+import BenefitsSection from "./../components/3BenefitsSection";
 import ProblemSection from "./../components/4ProblemSection";
-import SolutionSection from "./../components/6SolutionSection";
+import FlowSection from "./../components/6FlowSection";
 import ProductSection from "./../components/8ProductSection";
 import FooterSection from "./../components/10FooterSection";
 
@@ -32,18 +33,19 @@ export default () => (
       <meta content="text/html; charset=UTF-8" name="Content-Type" />
       //<link rel="shortcut icon" href="/static/favicon.ico"/>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400i,400,500,500i,700,700i|Lato:100,100i,300,300i,400i,400,700,700i,900,900i|Ubuntu+Mono:400i,400,700,700i&amp;subset=latin" />
-      <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+      <link rel="stylesheet" type="text/css" charSet="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
     </Head>
-    <body class="bg-body text-body font-body">
-      <div class="container mx-auto px-4">
+
+      <div className="container mx-auto px-4">
         <NavSection />
         <HeroSection />
-        <ProblemSection />
-        <SolutionSection />
+
+        <FlowSection />
+        <BenefitsSection />
         <ProductSection />
         <FooterSection />
+        <ProblemSection />
       </div>
-    </body>
   </>
 )

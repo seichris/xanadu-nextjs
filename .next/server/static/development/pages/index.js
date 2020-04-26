@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -110,7 +110,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function NavSection(props) {
   return __jsx("nav", {
-    class: "flex flex-wrap items-center justify-between p-4",
+    className: "flex flex-wrap items-center justify-between p-4",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -118,151 +118,144 @@ function NavSection(props) {
       columnNumber: 5
     }
   }, __jsx("div", {
-    class: "flex flex-shrink-0 mr-10",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 3,
-      columnNumber: 66
-    }
-  }, __jsx("a", {
-    class: "text-xl text-indigo-500 font-semibold",
-    href: "#",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 3,
-      columnNumber: 104
-    }
-  }, __jsx("img", {
-    src: "static/images/ethereum_castle_in_the_sky2.png",
-    alt: "Xanadu",
-    width: "50",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 3,
-      columnNumber: 162
-    }
-  }))), __jsx("div", {
-    class: "block lg:hidden",
+    className: "flex flex-shrink-0 mr-10",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4,
       columnNumber: 7
     }
-  }, __jsx("div", {
-    class: "divbar-burger flex items-center py-2 px-3 text-indigo-500 rounded border border-indigo-500",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4,
-      columnNumber: 36
-    }
-  }, __jsx("svg", {
-    class: "fill-current h-3 w-3",
-    viewbox: "0 0 20 20",
-    xmlns: "http://www.w3.org/2000/svg",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4,
-      columnNumber: 140
-    }
-  }, __jsx("title", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4,
-      columnNumber: 229
-    }
-  }, "Menu"), __jsx("path", {
-    d: "M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4,
-      columnNumber: 248
-    }
-  }))), "    "), __jsx("div", {
-    class: "divbar-menu hidden lg:flex lg:flex-grow lg:items-center w-full lg:w-auto",
+  }, __jsx("a", {
+    className: "text-xl text-indigo-500 font-semibold",
+    href: "#",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5,
       columnNumber: 7
     }
+  }, __jsx("img", {
+    src: "static/images/eth.png",
+    alt: "Xanadu",
+    width: "50",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 9
+    }
+  }))), __jsx("div", {
+    className: "block lg:hidden",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 7
+    }
   }, __jsx("div", {
-    class: "lg:mr-auto",
+    className: "divbar-burger flex items-center py-2 px-3 text-indigo-500 rounded border border-indigo-500",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
+      lineNumber: 10,
+      columnNumber: 9
+    }
+  }, __jsx("svg", {
+    className: "fill-current h-3 w-3",
+    viewBox: "0 0 20 20",
+    xmlns: "http://www.w3.org/2000/svg",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 11
+    }
+  }, __jsx("title", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 11
+    }
+  }, "Menu"), __jsx("path", {
+    d: "M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 11
+    }
+  })))), __jsx("div", {
+    className: "divbar-menu hidden lg:flex lg:flex-grow lg:items-center w-full lg:w-auto",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "lg:mr-auto",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
       columnNumber: 9
     }
   }, __jsx("a", {
-    class: "block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700",
+    className: "block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700",
     href: "#",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 33
+      lineNumber: 19,
+      columnNumber: 11
     }
-  }, "Why"), __jsx("a", {
-    class: "block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700",
+  }, "Follow users"), __jsx("a", {
+    className: "block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700",
     href: "#",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 135
+      lineNumber: 20,
+      columnNumber: 11
     }
-  }, "How"), __jsx("a", {
-    class: "block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700",
+  }, "Follow lists"), __jsx("a", {
+    className: "block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700",
     href: "#",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 237
+      lineNumber: 21,
+      columnNumber: 11
     }
-  }, "Product"), __jsx("a", {
-    class: "block lg:inline-block mt-4 lg:mt-0 text-blue-900 hover:text-blue-700",
+  }, "View commented websites"), __jsx("a", {
+    className: "block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700",
     href: "#",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 343
+      lineNumber: 22,
+      columnNumber: 11
     }
-  }, "Product examples")), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 9
-    }
-  }, __jsx("a", {
-    class: "block lg:inline-block mt-4 lg:mt-0 lg:mr-8 text-blue-900 hover:text-blue-700",
+  }, "my landing feed"), __jsx("a", {
+    className: "block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700",
     href: "#",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 14
+      lineNumber: 23,
+      columnNumber: 11
     }
-  }, "Add note"), __jsx("a", {
-    class: "inline-block py-3 px-6 mt-4 lg:mt-0 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow",
+  }, "my profile"), __jsx("a", {
+    className: "block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-blue-700",
     href: "#",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 123
+      lineNumber: 24,
+      columnNumber: 11
     }
-  }, "Auth with Ethereum"))));
+  }, "my dashboard to whitelist"))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (NavSection);
@@ -286,7 +279,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function ProductSection(props) {
   return __jsx("footer", {
-    class: "flex flex-wrap items-center justify-between p-4",
+    className: "flex flex-wrap items-center justify-between p-4",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -294,15 +287,15 @@ function ProductSection(props) {
       columnNumber: 5
     }
   }, __jsx("div", {
-    class: "w-full lg:w-auto lg:mr-6 mb-4 lg:mb-0 text-center",
+    className: "w-full lg:w-auto lg:mr-6 mb-4 lg:mb-0 text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 3,
-      columnNumber: 69
+      columnNumber: 73
     }
   }, "\xA9 2020 Xanadu"), __jsx("div", {
-    class: "flex flex-col lg:flex-row items-center w-full lg:w-auto",
+    className: "flex flex-col lg:flex-row items-center w-full lg:w-auto",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -310,7 +303,7 @@ function ProductSection(props) {
       columnNumber: 7
     }
   }, __jsx("div", {
-    class: "mx-auto lg:mx-0 lg:ml-auto",
+    className: "mx-auto lg:mx-0 lg:ml-auto",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -318,34 +311,34 @@ function ProductSection(props) {
       columnNumber: 9
     }
   }, __jsx("a", {
-    class: "inline-block mt-0 text-blue-900 hover:text-blue-700",
+    className: "inline-block mt-0 text-blue-900 hover:text-blue-700",
     href: "#",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5,
-      columnNumber: 49
+      columnNumber: 53
     }
   }, "FAQ"), __jsx("a", {
-    class: "inline-block mt-0 ml-8 text-blue-900 hover:text-blue-700",
+    className: "inline-block mt-0 ml-8 text-blue-900 hover:text-blue-700",
     href: "#",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5,
-      columnNumber: 128
+      columnNumber: 136
     }
   }, "Github"), __jsx("a", {
-    class: "inline-block mt-0 ml-8 text-blue-900 hover:text-blue-700",
+    className: "inline-block mt-0 ml-8 text-blue-900 hover:text-blue-700",
     href: "#",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5,
-      columnNumber: 215
+      columnNumber: 227
     }
   }, "Discord")), __jsx("div", {
-    class: "flex justify-center mt-4 lg:mt-0 lg:ml-8",
+    className: "flex justify-center mt-4 lg:mt-0 lg:ml-8",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -353,24 +346,24 @@ function ProductSection(props) {
       columnNumber: 9
     }
   }, __jsx("img", {
-    class: "w-6 h-6 mr-6",
+    className: "w-6 h-6 mr-6",
     src: "static/placeholders/icons/message.svg",
     alt: "",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6,
-      columnNumber: 63
+      columnNumber: 67
     }
   }), __jsx("img", {
-    class: "w-6 h-6",
+    className: "w-6 h-6",
     src: "static/placeholders/icons/share.svg",
     alt: "",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6,
-      columnNumber: 141
+      columnNumber: 149
     }
   }))));
 }
@@ -396,7 +389,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function HeroSection(props) {
   return __jsx("section", {
-    class: "py-12 px-4",
+    className: "py-12 px-4",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -404,7 +397,7 @@ function HeroSection(props) {
       columnNumber: 5
     }
   }, __jsx("div", {
-    class: "flex flex-wrap items-center text-center lg:text-left -mx-2",
+    className: "flex flex-wrap items-center text-center lg:text-left -mx-2",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -412,75 +405,194 @@ function HeroSection(props) {
       columnNumber: 7
     }
   }, __jsx("div", {
-    class: "lg:w-1/2 px-2 lg:pr-10 mt-10 lg:mt-0 order-1 lg:order-none",
+    className: "lg:w-3/6 px-2 lg:pr-10 mt-10 lg:mt-0 order-1 lg:order-none items-center text-center mx-auto",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
+      lineNumber: 8,
       columnNumber: 9
     }
+  }, __jsx("div", {
+    className: "flex flex-row items-center -mx-8 mt-12 mb-2",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 11
+    }
+  }, __jsx("img", {
+    src: "static/images/eth.png",
+    alt: "Xanadu",
+    width: "50",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 13
+    }
+  }), __jsx("div", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 13
+    }
   }, __jsx("h2", {
-    class: "text-5xl mb-6 leading-tight font-heading",
+    className: "text-5xl mb-6 leading-tight font-heading",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 15
+    }
+  }, "share your personal ", "\n", " version of the web"), __jsx("h3", {
+    className: "mb-6 leading-tight font-heading",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 15
+    }
+  }, "Edit any website, just like a google doc, share it & get rewards"))))), __jsx("div", {
+    className: "items-center text-center my-24 -mx-2",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    className: "mb-4 text-gray-700 ",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 9
+    }
+  }, "What do you think about this proposition?"), __jsx("a", {
+    className: "inline-block py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow",
+    href: "#",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 9
+    }
+  }, "Add your shitty opinion")));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (HeroSection);
+{
+  /* DESIGN
+   first, user can press the button
+  
+   then, they scroll down > which reveals comments all around the site
+  
+  */
+}
+
+/***/ }),
+
+/***/ "./components/3BenefitsSection.js":
+/*!****************************************!*\
+  !*** ./components/3BenefitsSection.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\chris\\Documents\\Workspace\\xanadu\\components\\3BenefitsSection.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function BenefitsSection(props) {
+  return __jsx("section", {
+    className: "py-12 px-4 text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3,
+      columnNumber: 5
+    }
+  }, __jsx("div", {
+    className: "flex flex-wrap items-center -mx-8 mt-12 mb-2 font-mono",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6,
-      columnNumber: 11
+      columnNumber: 7
     }
-  }, "share your personal web"), __jsx("p", {
-    class: "mb-8 text-gray-500 leading-relaxed",
+  }, __jsx("div", {
+    className: "lg:w-1/4 px-8 mb-8",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7,
-      columnNumber: 11
-    }
-  }, "incentivising eth devs to share knowledge, exactly where its needed why || user, community needs || problems || goals text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 11
-    }
-  }, __jsx("a", {
-    class: "inline-block py-4 px-8 mr-6 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow",
-    href: "#",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 16
-    }
-  }, "Sign up"), __jsx("a", {
-    class: "text-blue-700 hover:underline",
-    href: "#",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 148
-    }
-  }, "Learn more"))), __jsx("div", {
-    class: "lg:w-1/2 px-2",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
       columnNumber: 9
     }
-  }, " ", __jsx("img", {
-    src: "static/images/chongqing.jpg",
-    alt: "",
+  }, __jsx("p", {
+    className: " mb-2",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 37
+      lineNumber: 12,
+      columnNumber: 11
     }
-  }))));
+  }, "personalized content")), __jsx("div", {
+    className: "lg:w-1/4 px-8 mb-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 9
+    }
+  }, __jsx("p", {
+    className: " mb-2",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, "data privacy")), __jsx("div", {
+    className: "lg:w-1/4 px-8 mb-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 9
+    }
+  }, __jsx("p", {
+    className: " mb-2",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 11
+    }
+  }, "rewards on the blockchain")), __jsx("div", {
+    className: "lg:w-1/4 px-8 mb-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 9
+    }
+  }, __jsx("p", {
+    className: " mb-2",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 11
+    }
+  }, "interoperable"))));
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (HeroSection);
+/* harmony default export */ __webpack_exports__["default"] = (BenefitsSection);
 
 /***/ }),
 
@@ -501,57 +613,39 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function ProblemSection(props) {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("section", {
-    class: "p-4",
+    className: "p-4",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4,
       columnNumber: 7
     }
-  }, __jsx("div", {
-    class: "flex flex-wrap text-center",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4,
-      columnNumber: 28
-    }
-  }, __jsx("div", {
-    class: "md:w-1/2 py-4 md:px-10 mb-4 md:mb-0",
+  }, __jsx("h2", {
+    className: "text-4xl mb-12 leading-tight font-heading text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5,
-      columnNumber: 11
+      columnNumber: 9
     }
-  }, __jsx("img", {
-    class: "mx-auto mb-3",
-    src: "static/placeholders/icons/shield.svg",
-    alt: "",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 60
-    }
-  }), __jsx("h3", {
-    class: "text-2xl mb-3 font-heading",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 137
-    }
-  }, "the experienced community member \\\\ publisher"), __jsx("p", {
-    class: "text-gray-500 leading-relaxed",
+  }, "how to gather knowledge, when starting to building Ethereum products?"), __jsx("h2", {
+    className: "text-xl mb-12 leading-tight font-heading text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6,
-      columnNumber: 13
+      columnNumber: 9
     }
-  }, "they want ... need...")), __jsx("div", {
-    class: "md:w-1/2 py-4 md:px-10 mb-4 md:mb-0 md:border-l",
+  }, "put this as tabs down in 'products'. and add the full version to dev,to"), __jsx("div", {
+    className: "flex flex-wrap",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "md:w-1/2 py-4 md:px-10 mb-4 md:mb-0",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -559,142 +653,286 @@ function ProblemSection(props) {
       columnNumber: 11
     }
   }, __jsx("img", {
-    class: "mx-auto mb-3",
-    src: "static/placeholders/icons/cloud-tools.svg",
+    className: "mx-auto mb-3",
+    src: "static/images/people/experts.png",
     alt: "",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 72
-    }
-  }), __jsx("h3", {
-    class: "text-2xl mb-3 font-heading",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 154
-    }
-  }, "the web3 newbie"), __jsx("p", {
-    class: "text-gray-500 leading-relaxed",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9,
       columnNumber: 13
     }
-  }, "they want ... need...")))), __jsx("section", {
-    class: "py-8 px-4",
+  }), __jsx("h3", {
+    className: "text-2xl mb-3 font-heading text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 7
+      lineNumber: 22,
+      columnNumber: 13
     }
-  }, __jsx("div", {
-    class: "flex flex-wrap",
+  }, "the experienced wants reward for sharing"), __jsx("p", {
+    className: "text-gray-500 leading-relaxed text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 34
+      lineNumber: 23,
+      columnNumber: 13
     }
-  }, __jsx("div", {
-    class: "md:w-1/2 py-4 md:px-16 mb-4 md:mb-0",
+  }, "He's been working in Ethereum for a year, using DApps daily."), __jsx("h3", {
+    className: "font-semibold mb-3 mt-8 font-heading",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 32,
+      columnNumber: 13
+    }
+  }, "needs, goals"), __jsx("p", {
+    className: "mb-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 13
+    }
+  }, "He shares ideas on twitter. Shares his code on github. Receives positive feedback, but does not get paid.", __jsx("ul", {
+    className: "list-disc",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 15
+    }
+  }, __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 17
+    }
+  }, "Wish he could share to a list of friends"), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 17
+    }
+  }, "Wish he could monetize access to that list, like a paid twitter account"), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 17
+    }
+  }, "Wants more twitter followers"), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 17
+    }
+  }, "Wants measurable reputation as helpful community member"))), __jsx("h3", {
+    className: "font-semibold mb-3 mt-8 font-heading",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 13
+    }
+  }, "current problems"), __jsx("p", {
+    className: "mb-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 13
+    }
+  }, "asdasdasd", __jsx("ul", {
+    className: "list-decimal",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 15
+    }
+  }, __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 17
+    }
+  }, "asdasd."), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 17
+    }
+  }, "asdasd")))), __jsx("div", {
+    className: "md:w-1/2 py-4 md:px-10 mb-4 md:mb-0 md:border-l",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
       columnNumber: 11
     }
   }, __jsx("img", {
-    class: "w-24 mb-4",
-    src: "static/placeholders/logos/realweb.svg",
+    className: "mx-auto mb-3",
+    src: "static/images/people/newbs.png",
     alt: "",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 60
-    }
-  }), __jsx("p", {
-    class: "mb-4",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 135
-    }
-  }, "motivation \\\\ why \\\\ reason \\\\ theory 1................................. ......................................... text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text "), __jsx("p", {
-    class: "text-sm font-semibold",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 58,
       columnNumber: 13
     }
-  }, "Christian Lackawanna"), __jsx("p", {
-    class: "text-sm text-gray-500",
+  }), __jsx("h3", {
+    className: "text-2xl mb-3 font-heading text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 59,
       columnNumber: 13
     }
-  }, "CEO at Realweb")), __jsx("div", {
-    class: "md:w-1/2 py-4 md:px-16 mb-4 md:mb-0 md:border-l",
+  }, "the web3 newbie needs mentorship"), __jsx("p", {
+    className: "text-gray-500 leading-relaxed text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 11
-    }
-  }, __jsx("img", {
-    class: "w-24 mb-4",
-    src: "static/placeholders/logos/plucky.svg",
-    alt: "",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 72
-    }
-  }), __jsx("p", {
-    class: "mb-4",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 146
-    }
-  }, "motivation \\\\ why \\\\ reason \\\\ theory 2................................. ......................................... text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text "), __jsx("p", {
-    class: "text-sm font-semibold",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 60,
       columnNumber: 13
     }
-  }, "Barbara Allen"), __jsx("p", {
-    class: "text-sm text-gray-500",
+  }, "She works at web2.com & is starting an Ethereum DApp side project."), __jsx("h3", {
+    className: "font-semibold mb-3 mt-8 font-heading",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 64,
       columnNumber: 13
     }
-  }, "CFO at Plucky")))));
+  }, "needs, goals"), __jsx("p", {
+    className: "mb-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65,
+      columnNumber: 13
+    }
+  }, "She has a rough idea what to build, but its hard to get an overview on related content.", __jsx("ul", {
+    className: "list-disc",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 15
+    }
+  }, __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 17
+    }
+  }, "Which projects build similar stuff?"), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 17
+    }
+  }, "Who can guide me?"), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
+      columnNumber: 17
+    }
+  }, "Where to ask questions?"), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71,
+      columnNumber: 17
+    }
+  }, "Where to follow the most recent news?"), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72,
+      columnNumber: 17
+    }
+  }, "Is that code secure?"), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73,
+      columnNumber: 17
+    }
+  }, "Can I trust that team to maintain their code?"))), __jsx("h3", {
+    className: "font-semibold mb-3 mt-8 font-heading",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77,
+      columnNumber: 13
+    }
+  }, "current problems"), __jsx("p", {
+    className: "mb-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78,
+      columnNumber: 13
+    }
+  }, "right now, there are two ways to find information", __jsx("ul", {
+    className: "list-decimal",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80,
+      columnNumber: 15
+    }
+  }, __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81,
+      columnNumber: 17
+    }
+  }, "search your way through google, reddit, stackoverflow, etc."), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82,
+      columnNumber: 17
+    }
+  }, "or follow a guide on social media"))), __jsx("p", {
+    className: "mb-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85,
+      columnNumber: 13
+    }
+  }, "search is focused on content, but monetizing content = ads."), __jsx("p", {
+    className: "mb-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88,
+      columnNumber: 13
+    }
+  }, "social gives you guiding experts, but also continuous noise. No universal reputation.")))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (ProblemSection);
 
 /***/ }),
 
-/***/ "./components/6SolutionSection.js":
-/*!****************************************!*\
-  !*** ./components/6SolutionSection.js ***!
-  \****************************************/
+/***/ "./components/6FlowSection.js":
+/*!************************************!*\
+  !*** ./components/6FlowSection.js ***!
+  \************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -702,210 +940,301 @@ function ProblemSection(props) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\chris\\Documents\\Workspace\\xanadu\\components\\6SolutionSection.js";
+var _jsxFileName = "C:\\Users\\chris\\Documents\\Workspace\\xanadu\\components\\6FlowSection.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-function SolutionSection(props) {
+function FlowSection(props) {
   return __jsx("section", {
-    class: "py-12 px-4 text-center",
+    className: "py-12 px-4",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 3,
       columnNumber: 5
     }
-  }, __jsx("h2", {
-    class: "text-4xl mb-2 leading-tight font-heading",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 3,
-      columnNumber: 45
-    }
-  }, "so we match these two sites, exactly where they now dont meet. this is how it works..."), __jsx("p", {
-    class: "text-gray-500",
+  }, __jsx("p", {
+    className: "max-w-2xl mx-auto text-gray-500 leading-relaxed text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4,
       columnNumber: 7
     }
-  }, "click the div to auth with ethereum and open your first note"), __jsx("div", {
-    class: "flex flex-wrap items-center -mx-8 mt-12 mb-2",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 7
-    }
-  }, __jsx("div", {
-    class: "lg:w-1/3 px-8 mb-8",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 9
-    }
-  }, __jsx("img", {
-    class: "w-1/2 mx-auto mb-8",
-    src: "static/images/fu-chenqi-.jpg",
-    alt: "",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 41
-    }
-  }), __jsx("h3", {
-    class: "text-2xl mb-4 font-heading",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 116
-    }
-  }, __jsx("span", {
-    class: "inline-flex items-center justify-center h-12 w-12 mr-2 border rounded-full",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 155
-    }
-  }, "1 "), __jsx("span", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 253
-    }
-  }, "open notes")), __jsx("p", {
-    class: "text-gray-500",
+  }, "HOW IT WORKS"), __jsx("div", {
+    className: "flex flex-wrap items-center -mx-8 mt-12 mb-2",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7,
-      columnNumber: 11
+      columnNumber: 7
     }
-  }, "text text text text text text text text text text text text text text text text text text text text ")), __jsx("div", {
-    class: "lg:w-1/3 px-8 mb-8",
+  }, __jsx("div", {
+    className: "lg:w-1/3 px-8 mb-8",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 8,
       columnNumber: 9
     }
   }, __jsx("img", {
-    class: "w-1/2 mx-auto mb-8",
-    src: "static/images/fu-chenqi-1.jpg",
+    className: "w-1/2 mx-auto mb-8",
+    src: "static/images/flow/create.png",
     alt: "",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9,
-      columnNumber: 41
+      columnNumber: 11
     }
   }), __jsx("h3", {
-    class: "text-2xl mb-4 font-heading",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 117
-    }
-  }, __jsx("span", {
-    class: "inline-flex items-center justify-center h-12 w-12 mr-2 border rounded-full",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 156
-    }
-  }, "2 "), __jsx("span", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 254
-    }
-  }, "share notes")), __jsx("p", {
-    class: "text-gray-500",
+    className: "text-2xl mb-2 font-heading text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10,
       columnNumber: 11
     }
-  }, "text text text text text text text text text text text text text text text text text text text text ")), __jsx("div", {
-    class: "lg:w-1/3 px-8 mb-8",
+  }, __jsx("span", {
+    className: "inline-flex items-center justify-center h-12 w-12 mr-2 border rounded-full",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 13
+    }
+  }, "1 "), __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12,
+      columnNumber: 13
+    }
+  }, "Post anywhere")), __jsx("p", {
+    className: "text-gray-500 mb-2",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 11
+    }
+  }, "Edit the web:"), __jsx("ul", {
+    className: "list-disc",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 11
+    }
+  }, __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 13
+    }
+  }, "Comment (gdoc)"), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 13
+    }
+  }, "Highlight text (medium)"), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 13
+    }
+  }, "Link to similar content"), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 13
+    }
+  }, "Rate the site (google schema)"), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, "Edit css (dark mode)"))), __jsx("div", {
+    className: "lg:w-1/3 px-8 mb-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
       columnNumber: 9
     }
   }, __jsx("img", {
-    class: "w-1/2 mx-auto mb-8",
-    src: "static/images/ghost_in_the_shell.jpg",
+    className: "w-1/2 mx-auto mb-8",
+    src: "static/images/flow/share.png",
     alt: "",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 41
+      lineNumber: 26,
+      columnNumber: 11
     }
   }), __jsx("h3", {
-    class: "text-2xl mb-4 font-heading",
+    className: "text-2xl mb-2 font-heading text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 124
+      lineNumber: 27,
+      columnNumber: 11
     }
   }, __jsx("span", {
-    class: "inline-flex items-center justify-center h-12 w-12 mr-2 border rounded-full",
+    className: "inline-flex items-center justify-center h-12 w-12 mr-2 border rounded-full",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 163
+      lineNumber: 28,
+      columnNumber: 13
+    }
+  }, "2 "), __jsx("span", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 13
+    }
+  }, "Share it")), __jsx("p", {
+    className: "text-gray-500 mb-2",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 11
+    }
+  }, "via twitter, or anonymously with eth auth, in private"), __jsx("ul", {
+    className: "list-disc",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 11
+    }
+  }, __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 13
+    }
+  }, "simple mode with twitter auth"), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 13
+    }
+  }, "advanced privacy with ETH auth"), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 13
+    }
+  }, "whitelist followers per post"), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 13
+    }
+  }, "set different privacy levels for different followers"))), __jsx("div", {
+    className: "lg:w-1/3 px-8 mb-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 9
+    }
+  }, __jsx("img", {
+    className: "w-1/2 mx-auto mb-8",
+    src: "static/images/flow/reward.png",
+    alt: "",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 11
+    }
+  }), __jsx("h3", {
+    className: "text-2xl mb-2 font-heading text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 11
+    }
+  }, __jsx("span", {
+    className: "inline-flex items-center justify-center h-12 w-12 mr-2 border rounded-full",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 13
     }
   }, "3 "), __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 261
+      lineNumber: 45,
+      columnNumber: 13
     }
-  }, "get rewarded")), __jsx("p", {
-    class: "text-gray-500",
+  }, "Get rewarded")), __jsx("p", {
+    className: "text-gray-500 mb-2",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 47,
       columnNumber: 11
     }
-  }, "text text text text text text text text text text text text text text text text text text text text "))), __jsx("div", {
+  }, "If people like your content:"), __jsx("ul", {
+    className: "list-disc",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 7
+      lineNumber: 50,
+      columnNumber: 11
     }
-  }, __jsx("a", {
-    class: "inline-block py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow",
-    href: "#",
+  }, __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 12
+      lineNumber: 51,
+      columnNumber: 13
     }
-  }, "Add a message to this site")));
+  }, "You gain followers"), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 13
+    }
+  }, "You gain money"), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 13
+    }
+  }, "Your posts show up on top"), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 13
+    }
+  }, "Onchain reputation")))));
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (SolutionSection);
+/* harmony default export */ __webpack_exports__["default"] = (FlowSection);
 
 /***/ }),
 
@@ -926,295 +1255,284 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function ProductSection(props) {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("section", {
-    class: "py-12 px-4 text-center",
+    className: "py-12 px-4 text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4,
       columnNumber: 5
     }
-  }, __jsx("h2", {
-    class: "text-4xl mb-4 font-heading",
+  }, __jsx("p", {
+    className: "max-w-2xl mx-auto text-gray-500 leading-relaxed",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5,
       columnNumber: 7
     }
-  }, "Product examples"), __jsx("p", {
-    class: "max-w-2xl mx-auto mb-12 text-gray-500 leading-relaxed",
+  }, "PRODUCT EXAMPLES"), __jsx("h2", {
+    className: "text-4xl mb-4 font-heading",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6,
       columnNumber: 7
     }
-  }, "who can use this. how can use this......... hover one pic to open a text field, explaining examples"), __jsx("div", {
-    class: "flex max-w-lg mx-auto mb-12 border-b-2",
+  }, "So how does this create value?"), __jsx("p", {
+    className: "max-w-2xl mx-auto mb-12 text-gray-500 leading-relaxed",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7,
       columnNumber: 7
     }
-  }, __jsx("div", {
-    class: "w-1/3 pb-2 border-b-4 border-indigo-500",
+  }, "who can use this. how can use this. Where value? How growth?"), __jsx("div", {
+    className: "flex max-w-lg mx-auto mb-12 border-b-2",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 11
-    }
-  }, "v1.0")), __jsx("div", {
-    class: "w-1/3 pb-2",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 11
-    }
-  }, "v2.0")), __jsx("div", {
-    class: "w-1/3 pb-2",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 11
-    }
-  }, "v3.0"))), __jsx("div", {
-    class: "flex flex-wrap -mx-4 -mb-8",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
       columnNumber: 7
     }
   }, __jsx("div", {
-    class: "hidden md:block md:w-1/2 px-4 mb-8",
+    className: "w-1/3 pb-2 border-b-4 border-indigo-500",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 48,
       columnNumber: 9
     }
   }, __jsx("div", {
-    class: "h-full w-full bg-cover rounded shadow-md big-background-image",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 49,
       columnNumber: 11
     }
-  })), __jsx("div", {
-    class: "h-auto md:w-1/2 px-4 mb-8",
+  }, "Help Ethereum onboarding")), __jsx("div", {
+    className: "w-1/3 pb-2",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 51,
       columnNumber: 9
     }
   }, __jsx("div", {
-    class: "mb-8",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 52,
+      columnNumber: 11
+    }
+  }, "or different target groups categories")), __jsx("div", {
+    className: "w-1/3 pb-2",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 11
+    }
+  }, "or???"))), __jsx("div", {
+    className: "flex flex-wrap -mx-4 -mb-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "hidden md:block md:w-1/2 px-4 mb-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "mb-8 relative hover-trigger",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
       columnNumber: 11
     }
   }, __jsx("img", {
-    class: "rounded shadow-md",
+    className: "rounded shadow-md hover-background",
+    src: "static/images/tesla_on_mars.jpg",
+    alt: "",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 13
+    }
+  }), __jsx("div", {
+    className: "hover-target absolute top-0 left-0 right-0 flex flex-col h-full p-8  rounded mx-auto",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 13
+    }
+  }, __jsx("h2", {
+    className: "text-3xl font-heading text-white",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 15
+    }
+  }, "Use this textbox in the above div"), __jsx("p", {
+    className: "max-w-sm mt-auto mb-8 text-white leading-relaxed",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64,
+      columnNumber: 15
+    }
+  }, "text text text text text text text text text text text"), __jsx("a", {
+    className: "text-right text-blue-100 hover:underline",
+    href: "#",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 15
+    }
+  }, "View link")))), __jsx("div", {
+    className: "h-auto md:w-1/2 px-4 mb-8",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "mb-8 relative hover-trigger",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72,
+      columnNumber: 11
+    }
+  }, __jsx("img", {
+    className: "rounded shadow-md hover-background",
     src: "static/images/chongqing.jpg",
     alt: "",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 29
+      lineNumber: 73,
+      columnNumber: 13
     }
-  })), __jsx("div", {
+  }), __jsx("div", {
+    className: "hover-target absolute top-0 left-0 right-0 flex flex-col h-full p-8  rounded mx-auto",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 74,
+      columnNumber: 13
+    }
+  }, __jsx("h2", {
+    className: "text-3xl font-heading text-white",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75,
+      columnNumber: 15
+    }
+  }, "Use this textbox in the above div"), __jsx("p", {
+    className: "max-w-sm mt-auto mb-8 text-white leading-relaxed",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76,
+      columnNumber: 15
+    }
+  }, "text text text text text text text text text text text"), __jsx("a", {
+    className: "text-right text-blue-100 hover:underline",
+    href: "#",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79,
+      columnNumber: 15
+    }
+  }, "View link"))), __jsx("div", {
+    className: "mb-8 relative hover-trigger",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82,
       columnNumber: 11
     }
   }, __jsx("img", {
-    class: "rounded shadow-md",
+    className: "rounded shadow-md hover-background",
     src: "static/images/shanghai_3.jpg",
     alt: "",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 16
+      lineNumber: 83,
+      columnNumber: 13
     }
-  }))))), __jsx("section", {
-    class: "py-12 px-4",
+  }), __jsx("div", {
+    className: "hover-target absolute top-0 left-0 right-0 flex flex-col h-full p-8  rounded mx-auto",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 5
-    }
-  }, __jsx("div", {
-    class: "flex flex-wrap -mx-4",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 33
-    }
-  }, __jsx("div", {
-    class: "w-full lg:w-1/2 px-4 mb-8 lg:mb-0",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    class: "flex flex-col h-full p-8 bg-gray-200 rounded",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 11
+      lineNumber: 84,
+      columnNumber: 13
     }
   }, __jsx("h2", {
-    class: "text-3xl font-heading",
+    className: "text-3xl font-heading text-white",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 13
+      lineNumber: 85,
+      columnNumber: 15
     }
   }, "Use this textbox in the above div"), __jsx("p", {
-    class: "max-w-sm mt-auto mb-8 text-gray-500 leading-relaxed",
+    className: "max-w-sm mt-auto mb-8 text-white leading-relaxed",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 13
+      lineNumber: 86,
+      columnNumber: 15
     }
-  }, "text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"), __jsx("a", {
-    class: "text-right text-blue-700 hover:underline",
+  }, "text text text text text text text text text text text"), __jsx("a", {
+    className: "text-right text-blue-100 hover:underline",
     href: "#",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 379
+      lineNumber: 89,
+      columnNumber: 15
     }
-  }, "View link to github repo"))), __jsx("div", {
-    class: "lg:w-1/2 px-4",
+  }, "View link"))))), __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 9
+      lineNumber: 95,
+      columnNumber: 7
     }
-  }, __jsx("div", {
-    class: "flex flex-wrap -m-2",
+  }, __jsx("a", {
+    className: "inline-block m-16 py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow",
+    href: "#",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 11
+      lineNumber: 96,
+      columnNumber: 7
     }
-  }, __jsx("div", {
-    class: "w-1/2 p-2",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    class: "rounded shadow-md",
-    src: "static/images/hongkong_1.jpg",
-    alt: "",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 36
-    }
-  })), __jsx("div", {
-    class: "w-1/2 p-2",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    class: "rounded shadow-md",
-    src: "static/images/Kronental-France-housing-projects.jpg",
-    alt: "",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 36
-    }
-  })), __jsx("div", {
-    class: "w-1/2 p-2",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    class: "rounded shadow-md",
-    src: "static/images/bladerunner.jpg",
-    alt: "",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 36
-    }
-  })), __jsx("div", {
-    class: "w-1/2 p-2",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    class: "rounded shadow-md",
-    src: "static/images/fu-chenqi-.jpg",
-    alt: "",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 36
-    }
-  })))))));
+  }, "Which other use cases come to your mind?"))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (ProductSection);
@@ -1236,13 +1554,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_0NavSection__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../components/0NavSection */ "./components/0NavSection.js");
 /* harmony import */ var _components_2HeroSection__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../components/2HeroSection */ "./components/2HeroSection.js");
-/* harmony import */ var _components_4ProblemSection__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../components/4ProblemSection */ "./components/4ProblemSection.js");
-/* harmony import */ var _components_6SolutionSection__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../components/6SolutionSection */ "./components/6SolutionSection.js");
-/* harmony import */ var _components_8ProductSection__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./../components/8ProductSection */ "./components/8ProductSection.js");
-/* harmony import */ var _components_10FooterSection__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./../components/10FooterSection */ "./components/10FooterSection.js");
+/* harmony import */ var _components_3BenefitsSection__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../components/3BenefitsSection */ "./components/3BenefitsSection.js");
+/* harmony import */ var _components_4ProblemSection__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../components/4ProblemSection */ "./components/4ProblemSection.js");
+/* harmony import */ var _components_6FlowSection__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./../components/6FlowSection */ "./components/6FlowSection.js");
+/* harmony import */ var _components_8ProductSection__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./../components/8ProductSection */ "./components/8ProductSection.js");
+/* harmony import */ var _components_10FooterSection__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./../components/10FooterSection */ "./components/10FooterSection.js");
 var _jsxFileName = "C:\\Users\\chris\\Documents\\Workspace\\xanadu\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -1254,14 +1574,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11,
+    lineNumber: 12,
     columnNumber: 5
   }
 }, __jsx("title", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12,
+    lineNumber: 13,
     columnNumber: 7
   }
 }, "Xanadu"), __jsx("meta", {
@@ -1270,7 +1590,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13,
+    lineNumber: 14,
     columnNumber: 7
   }
 }), __jsx("meta", {
@@ -1279,7 +1599,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14,
+    lineNumber: 15,
     columnNumber: 7
   }
 }), __jsx("meta", {
@@ -1288,7 +1608,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15,
+    lineNumber: 16,
     columnNumber: 7
   }
 }), __jsx("meta", {
@@ -1297,7 +1617,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16,
+    lineNumber: 17,
     columnNumber: 7
   }
 }), __jsx("meta", {
@@ -1306,7 +1626,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 17,
+    lineNumber: 18,
     columnNumber: 7
   }
 }), __jsx("meta", {
@@ -1315,7 +1635,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18,
+    lineNumber: 19,
     columnNumber: 7
   }
 }), __jsx("meta", {
@@ -1324,7 +1644,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19,
+    lineNumber: 20,
     columnNumber: 7
   }
 }), __jsx("meta", {
@@ -1333,7 +1653,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20,
+    lineNumber: 21,
     columnNumber: 7
   }
 }), __jsx("meta", {
@@ -1342,7 +1662,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 21,
+    lineNumber: 22,
     columnNumber: 7
   }
 }), __jsx("meta", {
@@ -1351,7 +1671,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 22,
+    lineNumber: 23,
     columnNumber: 7
   }
 }), __jsx("meta", {
@@ -1360,7 +1680,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 23,
+    lineNumber: 24,
     columnNumber: 7
   }
 }), __jsx("meta", {
@@ -1369,7 +1689,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 24,
+    lineNumber: 25,
     columnNumber: 7
   }
 }), __jsx("meta", {
@@ -1378,7 +1698,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 25,
+    lineNumber: 26,
     columnNumber: 7
   }
 }), __jsx("meta", {
@@ -1387,7 +1707,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 26,
+    lineNumber: 27,
     columnNumber: 7
   }
 }), __jsx("meta", {
@@ -1396,7 +1716,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 27,
+    lineNumber: 28,
     columnNumber: 7
   }
 }), __jsx("meta", {
@@ -1405,7 +1725,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 28,
+    lineNumber: 29,
     columnNumber: 7
   }
 }), __jsx("meta", {
@@ -1414,7 +1734,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 29,
+    lineNumber: 30,
     columnNumber: 7
   }
 }), __jsx("meta", {
@@ -1423,7 +1743,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 30,
+    lineNumber: 31,
     columnNumber: 7
   }
 }), __jsx("meta", {
@@ -1432,7 +1752,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 31,
+    lineNumber: 32,
     columnNumber: 7
   }
 }), __jsx("meta", {
@@ -1441,7 +1761,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 32,
+    lineNumber: 33,
     columnNumber: 7
   }
 }), "//", __jsx("link", {
@@ -1450,23 +1770,12 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 33,
+    lineNumber: 34,
     columnNumber: 9
   }
 }), __jsx("link", {
   rel: "stylesheet",
   href: "https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400i,400,500,500i,700,700i|Lato:100,100i,300,300i,400i,400,700,700i,900,900i|Ubuntu+Mono:400i,400,700,700i&subset=latin",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 34,
-    columnNumber: 7
-  }
-}), __jsx("link", {
-  rel: "stylesheet",
-  type: "text/css",
-  charset: "UTF-8",
-  href: "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
@@ -1476,76 +1785,86 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 }), __jsx("link", {
   rel: "stylesheet",
   type: "text/css",
-  href: "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css",
+  charSet: "UTF-8",
+  href: "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 36,
     columnNumber: 7
   }
-})), __jsx("body", {
-  class: "bg-body text-body font-body",
+}), __jsx("link", {
+  rel: "stylesheet",
+  type: "text/css",
+  href: "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 38,
-    columnNumber: 5
+    lineNumber: 37,
+    columnNumber: 7
   }
-}, __jsx("div", {
-  class: "container mx-auto px-4",
+})), __jsx("div", {
+  className: "container mx-auto px-4",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 39,
+    lineNumber: 40,
     columnNumber: 7
   }
 }, __jsx(_components_0NavSection__WEBPACK_IMPORTED_MODULE_2__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 40,
+    lineNumber: 41,
     columnNumber: 9
   }
 }), __jsx(_components_2HeroSection__WEBPACK_IMPORTED_MODULE_3__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 41,
-    columnNumber: 9
-  }
-}), __jsx(_components_4ProblemSection__WEBPACK_IMPORTED_MODULE_4__["default"], {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
     lineNumber: 42,
     columnNumber: 9
   }
-}), __jsx(_components_6SolutionSection__WEBPACK_IMPORTED_MODULE_5__["default"], {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 43,
-    columnNumber: 9
-  }
-}), __jsx(_components_8ProductSection__WEBPACK_IMPORTED_MODULE_6__["default"], {
+}), __jsx(_components_6FlowSection__WEBPACK_IMPORTED_MODULE_6__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 44,
     columnNumber: 9
   }
-}), __jsx(_components_10FooterSection__WEBPACK_IMPORTED_MODULE_7__["default"], {
+}), __jsx(_components_3BenefitsSection__WEBPACK_IMPORTED_MODULE_4__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 45,
     columnNumber: 9
   }
-})))));
+}), __jsx(_components_8ProductSection__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 46,
+    columnNumber: 9
+  }
+}), __jsx(_components_10FooterSection__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 47,
+    columnNumber: 9
+  }
+}), __jsx(_components_4ProblemSection__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 48,
+    columnNumber: 9
+  }
+}))));
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
