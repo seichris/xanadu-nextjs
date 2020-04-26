@@ -19,6 +19,7 @@ function ProductSection(props) {
           ➖ Address book / labelled addresses: Share address book with friends
           ➖ React to security incidents instantly: Label bad addresses, ad security warning to bad websites (and get rewarded for it)
           ➖ Rate an ICO project. Add a comment to a website
+          ➖ Rate any site (crowdsourced google schema 5star rating)
           ➖ Customer feedback. A siteowner wants to see comments on his site directly
 
           v2b: anti fake news / two-sided opinion formation

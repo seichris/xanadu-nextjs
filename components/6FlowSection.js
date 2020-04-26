@@ -11,6 +11,9 @@ function FlowSection(props) {
             <span className="inline-flex items-center justify-center h-12 w-12 mr-2 border rounded-full">1 </span>
             <span>Post anywhere</span>
           </h3>
+          <a className="inline-block py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow" href="#">
+          Test now
+          </a>
           <p className="text-gray-500 mb-2">
           Edit the web:
           </p>
@@ -28,6 +31,9 @@ function FlowSection(props) {
             <span className="inline-flex items-center justify-center h-12 w-12 mr-2 border rounded-full">2 </span>
             <span>Share it</span>
           </h3>
+          <a className="opacity-50 cursor-not-allowed inline-block py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow" href="#">
+          Share now
+          </a>
           <p className="text-gray-500 mb-2">
           via twitter, or anonymously with eth auth, in private
           </p>
@@ -44,6 +50,9 @@ function FlowSection(props) {
             <span className="inline-flex items-center justify-center h-12 w-12 mr-2 border rounded-full">3 </span>
             <span>Get rewarded</span>
           </h3>
+          <a className="opacity-50 cursor-not-allowed inline-block py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow" href="#">
+          Login
+          </a>
           <p className="text-gray-500 mb-2">
           If people like your content:
           </p>

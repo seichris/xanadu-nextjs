@@ -81,55 +81,64 @@ function FlowSection(props) {
       lineNumber: 12,
       columnNumber: 13
     }
-  }, "Post anywhere")), __jsx("p", {
-    className: "w-1/2 mx-auto text-gray-500 mb-2",
+  }, "Post anywhere")), __jsx("a", {
+    className: "inline-block py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow",
+    href: "#",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
       columnNumber: 11
     }
-  }, "Edit the web:"), __jsx("ul", {
-    className: "w-1/2 mx-auto list-disc",
+  }, "Test now"), __jsx("p", {
+    className: "text-gray-500 mb-2",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17,
       columnNumber: 11
     }
-  }, __jsx("li", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 13
-    }
-  }, "Comment (gdoc)"), __jsx("li", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 13
-    }
-  }, "Highlight text (medium)"), __jsx("li", {
+  }, "Edit the web:"), __jsx("ul", {
+    className: "list-disc",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20,
-      columnNumber: 13
+      columnNumber: 11
     }
-  }, "Link to similar content"), __jsx("li", {
+  }, __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
       columnNumber: 13
     }
-  }, "Rate the site (google schema)"), __jsx("li", {
+  }, "Comment (gdoc)"), __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
+      columnNumber: 13
+    }
+  }, "Highlight text (medium)"), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 13
+    }
+  }, "Link to similar content"), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 13
+    }
+  }, "Rate the site (google schema)"), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
       columnNumber: 13
     }
   }, "Edit css (dark mode)"))), __jsx("div", {
@@ -137,7 +146,7 @@ function FlowSection(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 28,
       columnNumber: 9
     }
   }, __jsx("img", {
@@ -147,7 +156,7 @@ function FlowSection(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 29,
       columnNumber: 11
     }
   }), __jsx("h3", {
@@ -155,7 +164,7 @@ function FlowSection(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 30,
       columnNumber: 11
     }
   }, __jsx("span", {
@@ -163,58 +172,67 @@ function FlowSection(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 31,
       columnNumber: 13
     }
   }, "2 "), __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 32,
       columnNumber: 13
     }
-  }, "Share it")), __jsx("p", {
-    className: "w-1/2 mx-auto text-gray-500 mb-2",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 11
-    }
-  }, "via twitter, or anonymously with eth auth, in private"), __jsx("ul", {
-    className: "w-1/2 mx-auto list-disc",
+  }, "Share it")), __jsx("a", {
+    className: "inline-block py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow",
+    href: "#",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34,
       columnNumber: 11
     }
+  }, "Share now"), __jsx("p", {
+    className: "text-gray-500 mb-2",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 11
+    }
+  }, "via twitter, or anonymously with eth auth, in private"), __jsx("ul", {
+    className: "list-disc",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 11
+    }
   }, __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 41,
       columnNumber: 13
     }
   }, "simple mode with twitter auth"), __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 42,
       columnNumber: 13
     }
   }, "advanced privacy with ETH auth"), __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 43,
       columnNumber: 13
     }
   }, "whitelist followers per post"), __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 44,
       columnNumber: 13
     }
   }, "set different privacy levels for different followers"))), __jsx("div", {
@@ -222,7 +240,7 @@ function FlowSection(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 47,
       columnNumber: 9
     }
   }, __jsx("img", {
@@ -232,7 +250,7 @@ function FlowSection(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 48,
       columnNumber: 11
     }
   }), __jsx("h3", {
@@ -240,7 +258,7 @@ function FlowSection(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 49,
       columnNumber: 11
     }
   }, __jsx("span", {
@@ -248,58 +266,67 @@ function FlowSection(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 50,
       columnNumber: 13
     }
   }, "3 "), __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 51,
       columnNumber: 13
     }
-  }, "Get rewarded")), __jsx("p", {
-    className: "w-1/2 mx-auto text-gray-500 mb-2",
+  }, "Get rewarded")), __jsx("a", {
+    className: "inline-block py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow",
+    href: "#",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 53,
+      columnNumber: 11
+    }
+  }, "Login"), __jsx("p", {
+    className: "text-gray-500 mb-2",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
       columnNumber: 11
     }
   }, "If people like your content:"), __jsx("ul", {
-    className: "w-1/2 mx-auto list-disc",
+    className: "list-disc",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 59,
       columnNumber: 11
     }
   }, __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 60,
       columnNumber: 13
     }
   }, "You gain followers"), __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 61,
       columnNumber: 13
     }
   }, "You gain money"), __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 62,
       columnNumber: 13
     }
   }, "Your posts show up on top"), __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 63,
       columnNumber: 13
     }
   }, "Onchain reputation")))));
@@ -310,4 +337,4 @@ function FlowSection(props) {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.07c23ad081b9091ca3a4.hot-update.js.map
+//# sourceMappingURL=index.js.23491dee03eb125fe31c.hot-update.js.map

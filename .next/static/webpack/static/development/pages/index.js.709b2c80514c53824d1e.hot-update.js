@@ -228,14 +228,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 33,
       columnNumber: 7
     }
-  }), "//", __jsx("link", {
+  }), __jsx("link", {
     rel: "shortcut icon",
     href: "/static/favicon.ico",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34,
-      columnNumber: 9
+      columnNumber: 7
     }
   }), __jsx("link", {
     rel: "stylesheet",
@@ -330,4 +330,4 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 /***/ })
 
 })
-//# sourceMappingURL=index.js.0b8bfc0ceb4329595c71.hot-update.js.map
+//# sourceMappingURL=index.js.709b2c80514c53824d1e.hot-update.js.map
